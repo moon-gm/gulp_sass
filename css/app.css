@@ -1,0 +1,11 @@
+.sample {
+  color: #000000;
+  background: radial-gradient(#e66465, #9198e5);
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #000000;
+  -webkit-transition: cube-bezier(1, 0, 0, 1);
+  transition: cube-bezier(1, 0, 0, 1);
+  -webkit-transform: scale(2);
+  transform: scale(2);
+}

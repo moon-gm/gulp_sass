@@ -1,0 +1,7 @@
+.sample {
+    color: $black;
+    background: radial-gradient(#e66465, #9198e5);
+    @include sample($black, 10px);
+    transition: cube-bezier(1, 0, 0, 1);
+    transform: scale(2);
+}

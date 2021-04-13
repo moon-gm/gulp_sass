@@ -1,0 +1,8 @@
+$black: #000000;
+$white: #FFFFFF;
+
+@mixin sample($color, $px) {
+    padding: $px;
+    margin: $px;
+    border: 1px solid $color;
+}
